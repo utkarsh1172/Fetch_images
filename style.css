@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Inter&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(180deg,rgba(5,247,247,1) 23.8%, rgb(214, 173, 173)92%);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.result{
+    background-color: rgb(250, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.result img{
+    object-fit: cover;
+    height: 100%;
+    width: 100% ;
+}
+
+button{
+    background-color: darksalmon;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    /* gap: 10rem; */
+}
+
+button:active{
+    transform: scale(0.90);
+}
+button:focus{
+    /* outline: none; */
+}
